@@ -13,7 +13,7 @@
   // 46.536, 10.137 Livigno
   var map = L.map('map').setView([46.536, 10.137], 15);
   L.tileLayer('http://localhost:8082/wmts/osm4sking/webmercator/{z}/{x}/{y}.png', {
-      maxZoom: 18, // Assicurati che coincida con i livelli di seed in mapproxy.yaml[cite: 2]
+      maxZoom: 17, // Assicurati che coincida con i livelli di seed in mapproxy.yaml[cite: 2]
       minZoom: 13,
       attribution: '&copy; OpenStreetMap contributors, QGIS Server, MapProxy'
   }).addTo(map);

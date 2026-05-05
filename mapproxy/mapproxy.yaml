@@ -55,6 +55,6 @@ globals:
     base_dir: './cache_data'
     lock_dir: './cache_data/tile_locks'
   http:
-    ssl_verify: off
+    client_timeout: 180    # ← aggiungere questo
   image:
     resampling_method: bilinear

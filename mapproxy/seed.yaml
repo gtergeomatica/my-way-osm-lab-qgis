@@ -2,11 +2,11 @@ seeds:
   osm4sking_seed:
     caches: [osm4sking_cache]
     grids: [webmercator]
-    levels: [13, 14, 15, 16, 17, 18]
+    levels: [13, 14, 15, 16, 17]
     coverages: [osm4sking_extent]
     request_format: image/png
 
 coverages:
   osm4sking_extent:
-    bbox: [732790.4930897467, 5429496.570706574, 1341310.9197858027, 5889762.9946888555]
+    bbox: [1071107.609693223,5812167.875107573,1182524.8770802934,5918606.765171171]
     srs: 'EPSG:3857'
